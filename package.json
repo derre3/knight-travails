@@ -1,0 +1,23 @@
+{
+  "name": "knight-travails",
+  "version": "1.0.0",
+  "description": "Solution for the Knight Travails assignment by The Odin Project Javascript path. https://www.theodinproject.com/lessons/javascript-knights-travails",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "npx onchange src/*.*js -- node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "onchange": "^7.1.0"
+  }
+}
