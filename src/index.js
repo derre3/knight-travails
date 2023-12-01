@@ -1,3 +1,3 @@
-import testModule from './testModule.mjs';
+import knightMoves from './knightMoves.mjs';
 
-console.log(testModule('test'));
+knightMoves([0, 0], [3, 3]);
